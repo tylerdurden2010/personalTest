@@ -1,0 +1,15 @@
+[[rules]]
+  regex = "(?i)password|pass|pwd"
+  description = "Potential password leakage"
+
+[[rules]]
+  regex = "(?i)secret"
+  description = "Potential secret leakage"
+
+[[rules]]
+  regex = "(?i)token"
+  description = "Potential token leakage"
+
+[[rules]]
+  regex = "(?i)credentials|creds"
+  description = "Potential credentials leakage"
