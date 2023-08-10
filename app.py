@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 from flask import Flask, request, render_template
 import pymysql
-
+# pymysql
 app = Flask(__name__)
 
 def generate_captcha_text(length=4):
